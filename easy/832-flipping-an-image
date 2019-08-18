@@ -1,0 +1,29 @@
+/**
+ * @param {number[][]} A
+ * @return {number[][]}
+ */
+var flipAndInvertImage = function(A) {
+  for(let i = 0; i < A.length; i++) {
+    for(let j = 0; j <= (A[i].length - 1) / 2; j++) {
+      const isFirst = A[i].length % 2 === 1;
+      const second = j === ((A[i].length - 1) / 2);
+      const isMiddleValue = isFirst && second;
+      if (isMiddleValue) {
+        A[i][j] = flip(A[i][j]);
+      } else {
+        const temp = A[i][j];
+        A[i][j] = flip(A[i][A[i].length - 1 - j]);
+        A[i][A[i].length - 1 - j] = flip(temp);
+      }
+    }
+  }
+  return A;
+};
+
+var flip = function(v) {
+  return v ? 0 : 1;
+};
+
+console.log(flipAndInvertImage([[1,1,0],[1,0,1],[0,0,0]]));
+console.log(flipAndInvertImage([[1,1,0],[1,0,1],[0,0,0]]).toString() === [[1,0,0],[0,1,0],[1,1,1]].toString() );
+console.log(flipAndInvertImage([[1,1,0,0],[1,0,0,1],[0,1,1,1],[1,0,1,0]]).toString() === [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]].toString());
