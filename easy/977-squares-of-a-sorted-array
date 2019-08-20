@@ -1,0 +1,39 @@
+var sortedSquares = function(A) {
+  let positiveIndex = 0;
+  // start find negative and positive index
+  while (positiveIndex < A.length && A[positiveIndex] < 0) {
+    positiveIndex++;
+  }
+  let negativeIndex = positiveIndex-1;
+  // end find negative and positive index
+
+  const result = [];
+
+  while (negativeIndex >= 0 && positiveIndex < A.length) {
+    let negSquare = A[negativeIndex] * A[negativeIndex];
+    let posSquare = A[positiveIndex] * A[positiveIndex];
+
+    if (negSquare < posSquare) {
+      result.push(negSquare);
+      negativeIndex--;
+    } else {
+      result.push(posSquare);
+      positiveIndex++;
+    }
+  }
+
+  while(negativeIndex >= 0) {
+    result.push(A[negativeIndex] * A[negativeIndex]);
+    negativeIndex--;
+  }
+
+  while (positiveIndex < A.length) {
+    result.push(A[positiveIndex] * A[positiveIndex]);
+    positiveIndex++;
+  }
+
+  return result;
+};
+
+console.log(sortedSquares([-4,-1,0,3,10]));
+console.log(sortedSquares([-7,-3,2,3,11]));
