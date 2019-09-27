@@ -3,7 +3,7 @@
  * @return {number}
  */
 var arrayPairSum = function(nums) {
-  nums.sort();
+  nums.sort((a, b) => a-b);
   let res = 0;
   for (let i = 0; i < nums.length; i += 2) {
     res += nums[i]
@@ -11,4 +11,5 @@ var arrayPairSum = function(nums) {
   return res;
 };
 
-console.log(arrayPairSum([1, 4, 3, 2]));
+// console.log(arrayPairSum([1, 4, 3, 2]));
+console.log(arrayPairSum([-1, -14, -13, 2]));
