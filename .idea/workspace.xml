@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c972064c-6c04-4d67-859a-ebf2d986c883" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easy/985-sum-of-even-numbers-after-queries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easy/985-sum-of-even-numbers-after-queries.js">
+        <entry file="file://$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="308">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -48,6 +48,7 @@
       <find>i</find>
       <find>nums2[i]</find>
       <find>stack[l - 1]</find>
+      <find>int</find>
     </findStrings>
     <replaceStrings>
       <replace>A[i].</replace>
@@ -73,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy/28-implement-strStr.js" />
-        <option value="$PROJECT_DIR$/easy/125-valid-palindrome.js" />
         <option value="$PROJECT_DIR$/easy/69-sqrt-x.js" />
         <option value="$PROJECT_DIR$/easy/204-count-primes.js" />
         <option value="$PROJECT_DIR$/easy/190-reverse-bits.js" />
@@ -124,6 +123,8 @@
         <option value="$PROJECT_DIR$/easy/860-lemonade-change.js" />
         <option value="$PROJECT_DIR$/easy/303-range-sum-query-immutable.js" />
         <option value="$PROJECT_DIR$/easy/985-sum-of-even-numbers-after-queries.js" />
+        <option value="$PROJECT_DIR$/easy/304-range-sum-query-2D-immutable.js" />
+        <option value="$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js" />
       </list>
     </option>
   </component>
@@ -162,6 +163,11 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="middle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -184,6 +190,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/middle" />
       <recent name="$PROJECT_DIR$/easy" />
     </key>
   </component>
@@ -199,17 +206,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.985-sum-of-even-numbers-after-queries.js">
+  <component name="RunManager" selected="Node.js.304-range-sum-query-2D-immutable.js">
     <configuration name="303-range-sum-query-immutable.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="303-range-sum-query-immutable.js" working-dir="$PROJECT_DIR$/easy">
+      <method v="2" />
+    </configuration>
+    <configuration name="304-range-sum-query-2D-immutable.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="346-moving-average-from-data-stream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="346-moving-average-from-data-stream.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="860-lemonade-change.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="860-lemonade-change.js" working-dir="$PROJECT_DIR$/easy">
-      <method v="2" />
-    </configuration>
-    <configuration name="921-minimum-add-to-make-parentheses-valid.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="921-minimum-add-to-make-parentheses-valid.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="985-sum-of-even-numbers-after-queries.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="985-sum-of-even-numbers-after-queries.js" working-dir="$PROJECT_DIR$/easy">
@@ -220,19 +227,19 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.debug" />
-      <item itemvalue="Node.js.921-minimum-add-to-make-parentheses-valid.js" />
       <item itemvalue="Node.js.346-moving-average-from-data-stream.js" />
       <item itemvalue="Node.js.860-lemonade-change.js" />
       <item itemvalue="Node.js.303-range-sum-query-immutable.js" />
       <item itemvalue="Node.js.985-sum-of-even-numbers-after-queries.js" />
+      <item itemvalue="Node.js.304-range-sum-query-2D-immutable.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.304-range-sum-query-2D-immutable.js" />
         <item itemvalue="Node.js.985-sum-of-even-numbers-after-queries.js" />
         <item itemvalue="Node.js.303-range-sum-query-immutable.js" />
         <item itemvalue="Node.js.860-lemonade-change.js" />
         <item itemvalue="Node.js.346-moving-average-from-data-stream.js" />
-        <item itemvalue="Node.js.921-minimum-add-to-make-parentheses-valid.js" />
       </list>
     </recent_temporary>
   </component>
@@ -300,14 +307,7 @@
       <workItem from="1572867628419" duration="12000" />
       <workItem from="1572951260675" duration="1621000" />
       <workItem from="1572962467137" duration="1515000" />
-      <workItem from="1573018744191" duration="229000" />
-    </task>
-    <task id="LOCAL-00053" summary="feat(14): Solved longest common prefix">
-      <created>1568861029906</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1568861029906</updated>
+      <workItem from="1573018744191" duration="8708000" />
     </task>
     <task id="LOCAL-00054" summary="feat(28): Solved implement strStr">
       <created>1569205153440</created>
@@ -645,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572966149164</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="feat(985): solved">
+      <created>1573019000591</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1573019000592</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74770000" />
+    <option name="totallyTimeSpent" value="83249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
@@ -662,7 +669,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.59585494" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.6134715" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40207255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -720,7 +727,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(933): Solved number of recent calls" />
     <MESSAGE value="feat(700): Solved search in a binary search tree" />
     <MESSAGE value="feat(589): Solved n ary tree preorder traversal" />
     <MESSAGE value="feat(590): Solved n ary tree postorder traversal" />
@@ -745,7 +751,8 @@
     <MESSAGE value="feat(1050): solved" />
     <MESSAGE value="feat(860): solved" />
     <MESSAGE value="feat(303): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(303): solved" />
+    <MESSAGE value="feat(985): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(985): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,13 +772,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy/28-implement-strStr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/7-reverse-integer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1081,8 +1081,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easy/985-sum-of-even-numbers-after-queries.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="168">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
