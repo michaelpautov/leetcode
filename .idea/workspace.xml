@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c972064c-6c04-4d67-859a-ebf2d986c883" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js" afterDir="false" />
+    <list default="true" id="c972064c-6c04-4d67-859a-ebf2d986c883" name="Default Changelist" comment="feat(304): solved">
+      <change afterPath="$PROJECT_DIR$/easy/762-prime-number-of-set-bits-in-binary-representatio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,12 +19,12 @@
     <favorites_list name="test.js" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js">
+        <entry file="file://$PROJECT_DIR$/easy/762-prime-number-of-set-bits-in-binary-representatio.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -74,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy/69-sqrt-x.js" />
         <option value="$PROJECT_DIR$/easy/204-count-primes.js" />
         <option value="$PROJECT_DIR$/easy/190-reverse-bits.js" />
         <option value="$PROJECT_DIR$/easy/7-reverse-integer.js" />
@@ -125,6 +124,7 @@
         <option value="$PROJECT_DIR$/easy/985-sum-of-even-numbers-after-queries.js" />
         <option value="$PROJECT_DIR$/easy/304-range-sum-query-2D-immutable.js" />
         <option value="$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js" />
+        <option value="$PROJECT_DIR$/easy/762-prime-number-of-set-bits-in-binary-representatio.js" />
       </list>
     </option>
   </component>
@@ -150,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,14 +206,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.304-range-sum-query-2D-immutable.js">
+  <component name="RunManager" selected="Node.js.762-prime-number-of-set-bits-in-binary-representatio.js">
     <configuration name="303-range-sum-query-immutable.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="303-range-sum-query-immutable.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="304-range-sum-query-2D-immutable.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
-    <configuration name="346-moving-average-from-data-stream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="346-moving-average-from-data-stream.js" working-dir="$PROJECT_DIR$/easy">
+    <configuration name="762-prime-number-of-set-bits-in-binary-representatio.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="762-prime-number-of-set-bits-in-binary-representatio.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="860-lemonade-change.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="860-lemonade-change.js" working-dir="$PROJECT_DIR$/easy">
@@ -227,19 +227,19 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.debug" />
-      <item itemvalue="Node.js.346-moving-average-from-data-stream.js" />
       <item itemvalue="Node.js.860-lemonade-change.js" />
       <item itemvalue="Node.js.303-range-sum-query-immutable.js" />
       <item itemvalue="Node.js.985-sum-of-even-numbers-after-queries.js" />
       <item itemvalue="Node.js.304-range-sum-query-2D-immutable.js" />
+      <item itemvalue="Node.js.762-prime-number-of-set-bits-in-binary-representatio.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.762-prime-number-of-set-bits-in-binary-representatio.js" />
         <item itemvalue="Node.js.304-range-sum-query-2D-immutable.js" />
         <item itemvalue="Node.js.985-sum-of-even-numbers-after-queries.js" />
         <item itemvalue="Node.js.303-range-sum-query-immutable.js" />
         <item itemvalue="Node.js.860-lemonade-change.js" />
-        <item itemvalue="Node.js.346-moving-average-from-data-stream.js" />
       </list>
     </recent_temporary>
   </component>
@@ -307,14 +307,8 @@
       <workItem from="1572867628419" duration="12000" />
       <workItem from="1572951260675" duration="1621000" />
       <workItem from="1572962467137" duration="1515000" />
-      <workItem from="1573018744191" duration="8708000" />
-    </task>
-    <task id="LOCAL-00054" summary="feat(28): Solved implement strStr">
-      <created>1569205153440</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1569205153441</updated>
+      <workItem from="1573018744191" duration="9237000" />
+      <workItem from="1573145505558" duration="1210000" />
     </task>
     <task id="LOCAL-00055" summary="feat(125): Solved valid palindrome">
       <created>1569206431219</created>
@@ -652,11 +646,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573019000592</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="feat(304): solved">
+      <created>1573033819636</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1573033819636</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83249000" />
+    <option name="totallyTimeSpent" value="84988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
@@ -668,7 +669,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5017668" side_tool="true" weight="0.31360114" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59585494" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41865286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40207255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -727,7 +728,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(700): Solved search in a binary search tree" />
     <MESSAGE value="feat(589): Solved n ary tree preorder traversal" />
     <MESSAGE value="feat(590): Solved n ary tree postorder traversal" />
     <MESSAGE value="feat(929): Solved unique email addresses" />
@@ -752,7 +752,8 @@
     <MESSAGE value="feat(860): solved" />
     <MESSAGE value="feat(303): solved" />
     <MESSAGE value="feat(985): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(985): solved" />
+    <MESSAGE value="feat(304): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(304): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -765,20 +766,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/easy/985-sum-of-even-numbers-after-queries.js</url>
           <line>9</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy/7-reverse-integer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/190-reverse-bits.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1088,8 +1081,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/middle/304-range-sum-query-2D-immutable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/762-prime-number-of-set-bits-in-binary-representatio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
