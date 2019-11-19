@@ -26,24 +26,3 @@ function dfs(t, i, sum) {
   dfs(t.right, i + 1, sum);
 }
 
-var levelOrderBottom = function(root) {
-  let queue = [];
-  let res = [];
-  queue.push(root);
-  while(queue.length) {
-    let temp = [];
-    let count = queue.length;
-    for(let i = 0; i < count; i++) {
-      let n = queue.shift();
-      temp.push(n.val);
-      if (n.left) {
-        queue.push(n.left);
-      }
-      if (n.right) {
-        queue.push(n.right);
-      }
-    }
-    res.unshift(temp);
-  }
-  return res;
-};
