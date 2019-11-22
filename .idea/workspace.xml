@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(559): solved">
-      <change afterPath="$PROJECT_DIR$/easy/993-cousins-in-binary-tree.js" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/easy/703-kth-largest-element-in-a-stream.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,19 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easy/993-cousins-in-binary-tree.js">
+        <entry file="file://$PROJECT_DIR$/easy/703-kth-largest-element-in-a-stream.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easy/559-maximum-depth-of-n-ary-tree.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="355">
+              <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -57,6 +48,9 @@
       <find>root</find>
       <find>minDepth</find>
       <find>left</find>
+      <find>kthLargest</find>
+      <find>pq</find>
+      <find>pq.</find>
     </findStrings>
     <replaceStrings>
       <replace>b</replace>
@@ -71,6 +65,7 @@
       <replace>node</replace>
       <replace>min</replace>
       <replace>right</replace>
+      <replace>kth</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -100,6 +95,8 @@
         <option value="$PROJECT_DIR$/easy/107-binary-tree-level-order-tarversal-ll.js" />
         <option value="$PROJECT_DIR$/easy/559-maximum-depth-of-n-ary-tree.js" />
         <option value="$PROJECT_DIR$/easy/993-cousins-in-binary-tree.js" />
+        <option value="$PROJECT_DIR$/easy/994-rotting-oranges.js" />
+        <option value="$PROJECT_DIR$/easy/703-kth-largest-element-in-a-stream.js" />
       </list>
     </option>
   </component>
@@ -114,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +128,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,11 +146,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.5-longest-palindromic-substring.js">
+  <component name="RunManager" selected="Node.js.703-kth-largest-element-in-a-stream.js">
     <configuration name="1042-flower-planting-with-no-adjacent.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="1042-flower-planting-with-no-adjacent.js" working-dir="$PROJECT_DIR$/easy">
-      <method v="2" />
-    </configuration>
-    <configuration name="110-balanced-binary-tree.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="110-balanced-binary-tree.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="339-nested-list-weight-sum.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="339-nested-list-weight-sum.js" working-dir="$PROJECT_DIR$/easy">
@@ -162,16 +156,19 @@
     <configuration name="5-longest-palindromic-substring.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="5-longest-palindromic-substring.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
-    <configuration name="997-find-the-town-judge.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="997-find-the-town-judge.js" working-dir="$PROJECT_DIR$/easy">
+    <configuration name="703-kth-largest-element-in-a-stream.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="703-kth-largest-element-in-a-stream.js" working-dir="$PROJECT_DIR$/easy">
+      <method v="2" />
+    </configuration>
+    <configuration name="994-rotting-oranges.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="994-rotting-oranges.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.703-kth-largest-element-in-a-stream.js" />
+        <item itemvalue="Node.js.994-rotting-oranges.js" />
         <item itemvalue="Node.js.5-longest-palindromic-substring.js" />
         <item itemvalue="Node.js.339-nested-list-weight-sum.js" />
         <item itemvalue="Node.js.1042-flower-planting-with-no-adjacent.js" />
-        <item itemvalue="Node.js.997-find-the-town-judge.js" />
-        <item itemvalue="Node.js.110-balanced-binary-tree.js" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +212,8 @@
       <workItem from="1574051405275" duration="6205000" />
       <workItem from="1574075460208" duration="1895000" />
       <workItem from="1574133128165" duration="675000" />
-      <workItem from="1574177162984" duration="5391000" />
+      <workItem from="1574177162984" duration="8540000" />
+      <workItem from="1574393548824" duration="1011000" />
     </task>
     <task id="LOCAL-00004" summary="feat(475): solved">
       <created>1573473229307</created>
@@ -350,23 +348,37 @@
       <option name="project" value="LOCAL" />
       <updated>1574179241023</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat(993): solved">
+      <created>1574213231666</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1574213231666</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat(994): solved">
+      <created>1574217149812</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1574217149812</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31908000" />
+    <option name="totallyTimeSpent" value="36068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.26939267" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.2730006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5017668" side_tool="true" weight="0.31360114" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45284975" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45284975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4507772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +434,9 @@
     <MESSAGE value="feat(5): solved" />
     <MESSAGE value="feat(107): solved" />
     <MESSAGE value="feat(559): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(559): solved" />
+    <MESSAGE value="feat(993): solved" />
+    <MESSAGE value="feat(994): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(994): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,6 +609,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/easy/993-cousins-in-binary-tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/easy/559-maximum-depth-of-n-ary-tree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -602,10 +623,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy/993-cousins-in-binary-tree.js">
+    <entry file="file://$PROJECT_DIR$/easy/994-rotting-oranges.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="140">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/703-kth-largest-element-in-a-stream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
         </state>
       </provider>
     </entry>
