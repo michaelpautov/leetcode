@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle/238-product-of-array-except-self.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/56-merge-intervals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/middle/238-product-of-array-except-self.js">
+        <entry file="file://$PROJECT_DIR$/middle/56-merge-intervals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" selection-start-line="4" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -115,6 +115,7 @@
         <option value="$PROJECT_DIR$/easy/680. Valid Palindrome II.js" />
         <option value="$PROJECT_DIR$/easy/680-valid-palindrome-2.js" />
         <option value="$PROJECT_DIR$/middle/238-product-of-array-except-self.js" />
+        <option value="$PROJECT_DIR$/middle/56-merge-intervals.js" />
       </list>
     </option>
   </component>
@@ -129,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +147,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,11 +165,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.238-product-of-array-except-self.js">
+  <component name="RunManager" selected="Node.js.56-merge-intervals.js">
     <configuration name="200-number-of-islands.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="200-number-of-islands.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
     <configuration name="238-product-of-array-except-self.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="238-product-of-array-except-self.js" working-dir="$PROJECT_DIR$/middle">
+      <method v="2" />
+    </configuration>
+    <configuration name="56-merge-intervals.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="56-merge-intervals.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
     <configuration name="67-add-binary.py3" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/easy/67-add-binary.py3" working-dir="$PROJECT_DIR$/easy">
@@ -177,16 +181,13 @@
     <configuration name="680-valid-palindrome-2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/easy/680-valid-palindrome-2.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
-    <configuration name="976-largest-perimeter-triangle.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="976-largest-perimeter-triangle.js" working-dir="$PROJECT_DIR$/easy">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.56-merge-intervals.js" />
         <item itemvalue="Node.js.238-product-of-array-except-self.js" />
         <item itemvalue="Node.js.680-valid-palindrome-2.js" />
         <item itemvalue="Node.js.67-add-binary.py3" />
         <item itemvalue="Node.js.200-number-of-islands.js" />
-        <item itemvalue="Node.js.976-largest-perimeter-triangle.js" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +241,9 @@
       <workItem from="1574854661039" duration="1056000" />
       <workItem from="1574859967852" duration="555000" />
       <workItem from="1574860539319" duration="2019000" />
-      <workItem from="1575015340604" duration="852000" />
+      <workItem from="1575015340604" duration="1055000" />
+      <workItem from="1575351838375" duration="180000" />
+      <workItem from="1575381752028" duration="1600000" />
     </task>
     <task id="LOCAL-00004" summary="feat(475): solved">
       <created>1573473229307</created>
@@ -438,24 +441,31 @@
       <option name="project" value="LOCAL" />
       <updated>1574866390679</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat(238): solved">
+      <created>1575016319860</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1575016319861</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52650000" />
+    <option name="totallyTimeSpent" value="54633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.307276" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.31569454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5017668" side_tool="true" weight="0.31360114" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4507772" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4507772" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5108808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -490,7 +500,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(392): solved" />
     <MESSAGE value="feat(746): solved" />
     <MESSAGE value="feat(256): solved" />
     <MESSAGE value="feat(100): solved" />
@@ -515,7 +524,8 @@
     <MESSAGE value="feat(976): solved" />
     <MESSAGE value="feat(200): solved" />
     <MESSAGE value="feat(680): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(680): solved" />
+    <MESSAGE value="feat(238): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(238): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,6 +539,24 @@
           <url>file://$PROJECT_DIR$/easy/997-find-the-town-judge.js</url>
           <line>14</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/middle/56-merge-intervals.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/middle/56-merge-intervals.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/middle/56-merge-intervals.js</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -761,8 +789,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/middle/238-product-of-array-except-self.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" selection-start-line="4" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="336">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/155-min-stack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/56-merge-intervals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
         </state>
       </provider>
     </entry>
