@@ -3,32 +3,31 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-  if (!s.length) return true;
-  let head = 0;
-  let tail = s.length - 1;
-
-  while (head < tail) {
-    const cHead = s[head];
-    const cTail = s[tail]
-    if (!isLetter(cHead)) {
-      head++
-    } else if (!isLetter(cTail)) {
-      tail--
+  if(s.length === 0 || s.length === 1) {
+    return true;
+  }
+  let i = 0, j = s.length - 1;
+  while(i <= j) {
+    if (!isAlphaNumeric(s[i])) {
+      i++;
+    } else if(!isAlphaNumeric(s[j])) {
+      j--;
     } else {
-      if (cHead.toLowerCase() !== cTail.toLowerCase()) {
-        return false
+      if (s[i].toLowerCase() !== s[j].toLowerCase()) {
+        return false;
       }
-      head++;
-      tail--;
+      i++;
+      j--;
     }
   }
   return true;
 };
 
-
-function isLetter(str) {
-  return str.length === 1 && str.match(/^[a-z0-9]+$/i);
+function isAlphaNumeric(char) {
+  return char.match(/[a-zA-Z]|[0-9]/);
 }
 
-console.log(isPalindrome("A man, a plan, a canal: Panama"));
-console.log(isPalindrome("race a car"));
+console.log(isPalindrome("A man, a plan, a canal: Panama") === true);
+console.log(isPalindrome('1race a car1') === false);
+console.log(isPalindrome('2ama2') === true);
+console.log(isPalindrome('0P') === false);

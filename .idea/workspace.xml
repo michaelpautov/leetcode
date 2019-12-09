@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/easy/896-monotonic-array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/125-valid-palindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/125-valid-palindrome.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easy/896-monotonic-array.js">
+        <entry file="file://$PROJECT_DIR$/easy/125-valid-palindrome.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="284">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="31" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -121,6 +121,8 @@
         <option value="$PROJECT_DIR$/easy/811-subdomain-visit-count.js" />
         <option value="$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js" />
         <option value="$PROJECT_DIR$/easy/896-monotonic-array.js" />
+        <option value="$PROJECT_DIR$/easy/270-closest-binary-search-tree-value.js" />
+        <option value="$PROJECT_DIR$/easy/125-valid-palindrome.js" />
       </list>
     </option>
   </component>
@@ -170,8 +172,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.896-monotonic-array.js">
-    <configuration name="56-merge-intervals.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="56-merge-intervals.js" working-dir="$PROJECT_DIR$/middle">
+  <component name="RunManager" selected="Node.js.125-valid-palindrome.js">
+    <configuration name="125-valid-palindrome.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="125-valid-palindrome.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="560-subarray-sum-equals-k.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="560-subarray-sum-equals-k.js" working-dir="$PROJECT_DIR$/middle">
@@ -188,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.125-valid-palindrome.js" />
         <item itemvalue="Node.js.896-monotonic-array.js" />
         <item itemvalue="Node.js.953-verifying-an-alien-dictionary.js" />
         <item itemvalue="Node.js.811-subdomain-visit-count.js" />
         <item itemvalue="Node.js.560-subarray-sum-equals-k.js" />
-        <item itemvalue="Node.js.56-merge-intervals.js" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +254,7 @@
       <workItem from="1575442384716" duration="1587000" />
       <workItem from="1575625863411" duration="993000" />
       <workItem from="1575823547449" duration="1177000" />
-      <workItem from="1575858856123" duration="999000" />
+      <workItem from="1575858856123" duration="4286000" />
     </task>
     <task id="LOCAL-00004" summary="feat(475): solved">
       <created>1573473229307</created>
@@ -485,17 +487,31 @@
       <option name="project" value="LOCAL" />
       <updated>1575824896863</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feat(896): solved">
+      <created>1575860069494</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1575860069494</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat(270): solved">
+      <created>1575862016052</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1575862016052</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59998000" />
+    <option name="totallyTimeSpent" value="63285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.3331329" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.2964522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5017668" side_tool="true" weight="0.31360114" />
@@ -538,8 +554,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(235): solved" />
-    <MESSAGE value="feat(637): solved" />
     <MESSAGE value="feat(997): solved" />
     <MESSAGE value="feat(1042): solved" />
     <MESSAGE value="feat(257): solved" />
@@ -563,7 +577,9 @@
     <MESSAGE value="feat(560): subarray sum equals k" />
     <MESSAGE value="feat(811): solved" />
     <MESSAGE value="feat(953): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(953): solved" />
+    <MESSAGE value="feat(896): solved" />
+    <MESSAGE value="feat(270): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(270): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,6 +628,42 @@
           <url>file://$PROJECT_DIR$/easy/811-subdomain-visit-count.js</url>
           <line>16</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/125-valid-palindrome.js</url>
+          <line>26</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/125-valid-palindrome.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/125-valid-palindrome.js</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/125-valid-palindrome.js</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/125-valid-palindrome.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/125-valid-palindrome.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -894,8 +946,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easy/896-monotonic-array.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="266">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/270-closest-binary-search-tree-value.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/125-valid-palindrome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
