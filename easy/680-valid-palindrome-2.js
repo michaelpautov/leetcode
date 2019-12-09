@@ -2,30 +2,26 @@
  * @param {string} s
  * @return {boolean}
  */
-var validPalindrome = function(s) {
-  if (s.length === 0 || s.length === 1) {
-    return true;
-  }
-
-  for(let i = 0; i < s.length / 2 - 1; i++) {
-    if (s[i] !== s[s.length - i - 1]) {
-      let j = s.length - 1 - i;
-      return (isPalindrome(s, i+1, j) || isPalindrome(s, i, j-1));
+var validPalindrome = function(s, d = false) {
+  if (s.length === 1 || s.length === 0) return true;
+  let i = 0, j = s.length -1;
+  while (i < j) {
+    if(s[i] !== s[j]) {
+      if (d) {
+        return false;
+      }
+      return validPalindrome(s.substring(i + 1, j + 1), true) || validPalindrome(s.substring(i, j), true)
+    } else {
+      i++;
+      j--;
     }
   }
   return true;
 };
 
-function isPalindrome(s, i, j) {
-  for(let k = i; k <= i + (j - i) / 2; k++) {
-    if (s[k] !== s[j - k + i]) {
-      return false;
-    }
-  }
-  return true;
-}
-
-console.log(validPalindrome('abca'));
-console.log(validPalindrome('aba'));
-console.log(validPalindrome('babca'));
-console.log(validPalindrome('zwec'));
+console.log(validPalindrome('deeee') === true);
+console.log(validPalindrome('aba') === true);
+console.log(validPalindrome('abc') === false);
+console.log(validPalindrome('babca') === false);
+console.log(validPalindrome('zwec') === false);
+console.log(validPalindrome('zwec') === false);

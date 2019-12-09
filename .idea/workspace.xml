@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy/125-valid-palindrome.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/125-valid-palindrome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/680-valid-palindrome-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/680-valid-palindrome-2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easy/125-valid-palindrome.js">
+        <entry file="file://$PROJECT_DIR$/easy/680-valid-palindrome-2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="168">
+              <caret line="12" column="38" lean-forward="true" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -113,7 +112,6 @@
         <option value="$PROJECT_DIR$/easy/67-add-binary.js" />
         <option value="$PROJECT_DIR$/easy/67-add-binary.py3" />
         <option value="$PROJECT_DIR$/easy/680. Valid Palindrome II.js" />
-        <option value="$PROJECT_DIR$/easy/680-valid-palindrome-2.js" />
         <option value="$PROJECT_DIR$/middle/238-product-of-array-except-self.js" />
         <option value="$PROJECT_DIR$/middle/56-merge-intervals.js" />
         <option value="$PROJECT_DIR$/middle/560-subarray-sum-equals-k.js" />
@@ -123,6 +121,7 @@
         <option value="$PROJECT_DIR$/easy/896-monotonic-array.js" />
         <option value="$PROJECT_DIR$/easy/270-closest-binary-search-tree-value.js" />
         <option value="$PROJECT_DIR$/easy/125-valid-palindrome.js" />
+        <option value="$PROJECT_DIR$/easy/680-valid-palindrome-2.js" />
       </list>
     </option>
   </component>
@@ -172,11 +171,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.125-valid-palindrome.js">
+  <component name="RunManager" selected="Node.js.680-valid-palindrome-2.js">
     <configuration name="125-valid-palindrome.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="125-valid-palindrome.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
-    <configuration name="560-subarray-sum-equals-k.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="560-subarray-sum-equals-k.js" working-dir="$PROJECT_DIR$/middle">
+    <configuration name="680-valid-palindrome-2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="680-valid-palindrome-2.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="811-subdomain-visit-count.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="811-subdomain-visit-count.js" working-dir="$PROJECT_DIR$/easy">
@@ -190,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.680-valid-palindrome-2.js" />
         <item itemvalue="Node.js.125-valid-palindrome.js" />
         <item itemvalue="Node.js.896-monotonic-array.js" />
         <item itemvalue="Node.js.953-verifying-an-alien-dictionary.js" />
         <item itemvalue="Node.js.811-subdomain-visit-count.js" />
-        <item itemvalue="Node.js.560-subarray-sum-equals-k.js" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +253,7 @@
       <workItem from="1575442384716" duration="1587000" />
       <workItem from="1575625863411" duration="993000" />
       <workItem from="1575823547449" duration="1177000" />
-      <workItem from="1575858856123" duration="4286000" />
+      <workItem from="1575858856123" duration="5507000" />
     </task>
     <task id="LOCAL-00004" summary="feat(475): solved">
       <created>1573473229307</created>
@@ -501,15 +500,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575862016052</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="feat(125): solved">
+      <created>1575864437931</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1575864437931</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63285000" />
+    <option name="totallyTimeSpent" value="64506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.2964522" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,7 +522,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5017668" side_tool="true" weight="0.31360114" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5119171" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62929934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46943006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -554,7 +559,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(997): solved" />
     <MESSAGE value="feat(1042): solved" />
     <MESSAGE value="feat(257): solved" />
     <MESSAGE value="feat(339): solved" />
@@ -579,7 +583,8 @@
     <MESSAGE value="feat(953): solved" />
     <MESSAGE value="feat(896): solved" />
     <MESSAGE value="feat(270): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(270): solved" />
+    <MESSAGE value="feat(125): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(125): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -664,6 +669,12 @@
           <line>15</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/680-valid-palindrome-2.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -887,13 +898,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easy/67-add-binary.py3" />
-    <entry file="file://$PROJECT_DIR$/easy/680-valid-palindrome-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/middle/238-product-of-array-except-self.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -960,8 +964,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easy/125-valid-palindrome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="200">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/680-valid-palindrome-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="38" lean-forward="true" selection-end-line="27" />
         </state>
       </provider>
     </entry>
