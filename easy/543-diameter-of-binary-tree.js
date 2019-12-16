@@ -9,8 +9,6 @@
  * @param {TreeNode} root
  * @return {number}
  */
-var ans = 0;
-
 var diameterOfBinaryTree = function(root) {
   ans = 1;
   depth(root);
