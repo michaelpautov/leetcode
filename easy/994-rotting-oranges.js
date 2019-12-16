@@ -3,60 +3,58 @@
  * @return {number}
  */
 var orangesRotting = function(grid) {
-    let queue = [];
-    const R = grid.length;
-    const C = grid[0].length;
-    for(let r = 0; r < R; r++) {
-        for(let c = 0; c < C; c++) {
-            if (grid[r][c] === 2) {
-                queue.push([r, c, 0])
-            }
+    let min = 0;
+    while(true) {
+        let [isUpdateGrid, countOne, newTemp] = updateTemp(grid);
+        if (isUpdateGrid === false ) {
+            return countOne > 0 ? -1 : min;
+        } else {
+            min++;
+            grid = newTemp;
         }
     }
-
-    function getNeighbors(r, c) {
-        let res = [];
-        let positions = [[r, c-1], [r, c+1], [r-1, c], [r+1, c]];
-        for(let i = 0; i < positions.length; i++) {
-            const [nr, nc] = positions[i];
-            if (0 <= nr && nr < R && 0 <= nc && nc < C) {
-                res.push([nr, nc])
-            }
-
-        }
-        return res;
-    }
-
-    let res = 0;
-    while (queue.length) {
-        const [r,c,m] = queue.shift();
-        const neighbors = getNeighbors(r,c);
-        for(let i = 0; i < neighbors.length; i++) {
-            const [nr, nc] = neighbors[i];
-            if (grid[nr][nc] === 1) {
-                grid[nr][nc] = 2;
-                res = m + 1;
-                queue.push([nr, nc, res])
-            }
-        }
-    }
-
-    for(let i = 0; i < grid.length; i++) {
-        for(let  j= 0; j < grid[i].length; j++) {
-            if (grid[i][j] === 1) {
-                return -1;
-            }
-        }
-    }
-    return res;
 };
+
+function updateTemp(grid) {
+    let countOne = 0;
+    let isUpdate = false;
+    let temp = [];
+    for(let i = 0; i < grid.length; i++) {
+        temp.push([]);
+        for(let j = 0; j < grid[i].length; j++) {
+            if (grid[i][j] !== 1) {
+                temp[i].push(grid[i][j])
+            } else if (isUpdateValue(grid, i, j)) {
+                temp[i].push(2);
+                isUpdate = true;
+            } else {
+                temp[i].push(grid[i][j])
+                countOne++;
+            }
+        }
+    }
+    return [isUpdate, countOne, temp];
+}
+
+function isUpdateValue(grid, i, j) {
+    if (i > 0 && grid[i - 1][j] === 2) {
+        return true;
+    } else if (i < grid.length - 1 && grid[i+1][j] === 2) {
+        return true;
+    } else if (j > 0 && grid[i][j-1] === 2) {
+        return true;
+    } else if (j < grid[0].length - 1 && grid[i][j+1] === 2) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 console.log(orangesRotting([
     [2, 1, 1],
     [0, 1, 1],
     [1, 0, 1]]
-));
-console.log(orangesRotting([
-    [2,1,1],[1,1,0],[0,1,1]
-    ]
-));
+) === -1);
+
+
+console.log(orangesRotting([[2, 1, 1], [1, 1, 0], [0, 1, 1]]) === 4);
