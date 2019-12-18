@@ -4,23 +4,28 @@
  * @return {boolean}
  */
 var backspaceCompare = function(S, T) {
-  return parse(S) === parse(T);
-};
-
-var parse = function (str) {
-  const stack = [];
-  for (let i = 0; i < str.length; i++) {
-    const v = str[i];
-    if (v === '#') {
-      stack.pop();
-    } else {
-      stack.push(v);
+  if (S.length < T.length) return backspaceCompare(T, S);
+  let s = [], t = [];
+  for(let i = 0; i < S.length; i++) {
+    const sV = S[i], tV = T[i];
+    add(s, sV);
+    add(t, tV);
+  }
+  if (s.length !== t.length) return false;
+  for(let i = 0; i < s.length;i++) {
+    if (s[i] !== t[i]) {
+      return false;
     }
   }
-  return stack.join('')
+  return true;
+};
+
+function add(stack, el) {
+  if (el !== undefined) {
+    if (el === '#') {
+      stack.pop();
+    } else {
+      stack.push(el);
+    }
+  }
 }
-
-
-console.log(backspaceCompare('ab#c', 'ad#c'));
-console.log(backspaceCompare('ad##', 'a#d#'));
-console.log(backspaceCompare('a#c', 'b'));
