@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(1170): solved">
-      <change afterPath="$PROJECT_DIR$/easy/482-license-key-formatting.js" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easy/482-license-key-formatting.js">
+        <entry file="file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="346">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="34" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -117,7 +117,6 @@
         <option value="$PROJECT_DIR$/middle/560-subarray-sum-equals-k.js" />
         <option value="$PROJECT_DIR$/middle/253-meeting-rooms-2.js" />
         <option value="$PROJECT_DIR$/easy/811-subdomain-visit-count.js" />
-        <option value="$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js" />
         <option value="$PROJECT_DIR$/easy/896-monotonic-array.js" />
         <option value="$PROJECT_DIR$/easy/270-closest-binary-search-tree-value.js" />
         <option value="$PROJECT_DIR$/easy/125-valid-palindrome.js" />
@@ -130,11 +129,13 @@
         <option value="$PROJECT_DIR$/easy/299-bulls-and-cows.js" />
         <option value="$PROJECT_DIR$/easy/1170-compare-strings-by-frequency-of-the-smallest-character.js" />
         <option value="$PROJECT_DIR$/easy/482-license-key-formatting.js" />
+        <option value="$PROJECT_DIR$/easy/844-backspace-string-compare.js" />
+        <option value="$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="510" />
+    <option name="x" value="853" />
     <option name="y" value="23" />
     <option name="width" value="1707" />
     <option name="height" value="1057" />
@@ -144,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -160,7 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.482-license-key-formatting.js">
+  <component name="RunManager" selected="Node.js.953-verifying-an-alien-dictionary.js">
     <configuration name="1170-compare-strings-by-frequency-of-the-smallest-character.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="1170-compare-strings-by-frequency-of-the-smallest-character.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
@@ -189,7 +190,7 @@
     <configuration name="482-license-key-formatting.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="482-license-key-formatting.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
-    <configuration name="819-most-common-word.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="819-most-common-word.js" working-dir="$PROJECT_DIR$/easy">
+    <configuration name="953-verifying-an-alien-dictionary.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="953-verifying-an-alien-dictionary.js" working-dir="$PROJECT_DIR$/easy">
       <method v="2" />
     </configuration>
     <configuration name="994-rotting-oranges.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="994-rotting-oranges.js" working-dir="$PROJECT_DIR$/easy">
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.953-verifying-an-alien-dictionary.js" />
         <item itemvalue="Node.js.482-license-key-formatting.js" />
         <item itemvalue="Node.js.1170-compare-strings-by-frequency-of-the-smallest-character.js" />
         <item itemvalue="Node.js.299-bulls-and-cows.js" />
         <item itemvalue="Node.js.994-rotting-oranges.js" />
-        <item itemvalue="Node.js.819-most-common-word.js" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +269,10 @@
       <workItem from="1576209037081" duration="290000" />
       <workItem from="1576469529456" duration="2341000" />
       <workItem from="1576553695010" duration="2699000" />
-      <workItem from="1576637680194" duration="1110000" />
+      <workItem from="1576637680194" duration="1723000" />
+      <workItem from="1576646784823" duration="9000" />
+      <workItem from="1576658561656" duration="8000" />
+      <workItem from="1576726420593" duration="202000" />
     </task>
     <task id="LOCAL-00004" summary="feat(475): solved">
       <created>1573473229307</created>
@@ -578,17 +582,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576559429167</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="feat(482): solved">
+      <created>1576638996346</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1576638996346</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73489000" />
+    <option name="totallyTimeSpent" value="74321000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="510" y="23" width="1707" height="1057" extended-state="0" />
+    <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.32411304" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.33674082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5017668" side_tool="true" weight="0.31360114" />
@@ -631,7 +642,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(107): solved" />
     <MESSAGE value="feat(559): solved" />
     <MESSAGE value="feat(993): solved" />
     <MESSAGE value="feat(703): solved" />
@@ -656,7 +666,8 @@
     <MESSAGE value="feat(359): solved" />
     <MESSAGE value="feat(299): solved" />
     <MESSAGE value="feat(1170): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(1170): solved" />
+    <MESSAGE value="feat(482): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(482): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -757,10 +768,40 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/easy/482-license-key-formatting.js</url>
-          <line>12</line>
+          <url>file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js</url>
+          <line>11</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js</url>
+          <line>13</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js</url>
+          <line>14</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js</url>
+          <line>10</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js</url>
+          <line>7</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -772,13 +813,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy/276-paint-fence.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/392-is-subsequence.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -998,13 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/896-monotonic-array.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1112,8 +1139,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easy/482-license-key-formatting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="336">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/844-backspace-string-compare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easy/953-verifying-an-alien-dictionary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="34" selection-end-column="81" />
         </state>
       </provider>
     </entry>
