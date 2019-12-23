@@ -3,31 +3,43 @@
  * @return {string[]}
  */
 var reorderLogFiles = function(logs) {
-  function getLog(str){ // get after-identifier part of log
-    return str.slice(str.indexOf(' ')+1);
+  let letter = [];
+  let digest = [];
+  for(let i = 0; i < logs.length; i++) {
+    const log = logs[i];
+    if (isDig(log)) {
+      digest.push(log);
+    } else {
+      letter.push(log)
+    }
   }
-
-  function isDigitalStr(str){  // the condition is that either ALL str[i] are digits or they ALL are symbols
-    // so we may check str[0] only
-    return (str[0] >= '0' && str[0] <= '9') ? true : false;
-  }
-
-  function compare(a, b){  // main comparing function for 2 strings, if they're equal then compares identifiers
-    let res = getLog(a).localeCompare(getLog(b));
-    return (res == 0) ? a.slice(0, a.indexOf(' ')).localeCompare(b.slice(0, b.indexOf(' '))) : res;
-  }
-
-  let resLogs = []; // the resulting array: all digital logs will go into it befor symbol logs
-  let symbolLogs = []; // the array for sorting symbol logs
-
-  for(let i = 0; i < logs.length; i++){
-    if(isDigitalStr(getLog(logs[i])))
-      resLogs.push(logs[i]);
-    else
-      symbolLogs.push(logs[i]);
-  }
-
-  return [...symbolLogs.sort(compare), ...resLogs];
+  letter.sort(compare);
+  return [...letter, ...digest];
 };
 
-console.log(reorderLogFiles(["dig1 8 1 5 1", "let1 art can", "dig2 3 6", "let2 own kit dig", "let3 art zero"]));
+function isDig(log) {
+  return !!log[log.length - 1].match(/[0-9]/);
+}
+
+function getLog(log) {
+  return log.substring(log.indexOf(' ') + 1)
+}
+
+function compare(log1, log2) {
+  const l1 = getLog(log1);
+  const l2 = getLog(log2);
+  let comp = l1.localeCompare(l2);
+  if (comp === 0) {
+    return log1.slice(0, log1.indexOf(' ')).localeCompare(log2.slice(0, log2.indexOf(' ')))
+  }
+  return comp;
+}
+
+// console.log(isDig('dig1 8 1 5 1') === true);
+// console.log(isDig('dig1 8 1 5 2312a') === false);
+// console.log(getLog('dig1 8 1 5 2312a') === '8 1 5 2312a');
+// console.log(getLog('dig1 8 1 5 2312a'));
+
+console.log(reorderLogFiles(["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]));
+console.log(reorderLogFiles(["t kvr", "r 3 1", "i 403", "7 so", "t 54"]));
+console.log(["t kvr", "7 so", "r 3 1", "i 403", "t 54"]);
