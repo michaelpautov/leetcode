@@ -10,17 +10,23 @@
  * @return {number}
  */
 var diameterOfBinaryTree = function(root) {
-  ans = 1;
+  let ans = 1;
   depth(root);
-  return ans -1;
+
+  function depth(node) {
+    if (!node) return 0;
+    if (!node.left && !node.right) return 1;
+    let L = depth(node.left);
+    let R = depth(node.right);
+    let sum = L + R + 1;
+    if (ans < sum) {
+      ans = sum;
+    }
+    return Math.max(L, R) + 1;
+  }
+  return ans - 1;
 };
-var depth = function (node) {
-  if (node === null) return 0;
-  let l = depth(node.left);
-  let r = depth(node.right);
-  ans = Math.max(ans, l+r+1);
-  return Math.max(l, r) + 1;
-}
+
 
 var node = {
   val: 4,
@@ -31,13 +37,42 @@ var node = {
   },
   right: {
     val: 6,
-    left: null,
-    right: {
-      val:5 ,
-      left: null,
+    left: {
+      val: 5,
       right: null,
+      left: {
+        val: 5,
+        right: null,
+        left: {
+          val: 7,
+          left: {
+            val: 7,
+            left: null,
+            right: null,
+          },
+          right: null,
+        }
+      }
+    },
+    right: {
+      val: 6,
+      left: {
+        val: 5,
+        right: null,
+        left: {
+          val: 5,
+          right: null,
+          left: {
+            val: 7,
+            left: null,
+            right: null,
+          }
+        }
+      },
     },
   }
 }
+    // [1,2, 3, null, null, 5, 6, 7, null, null, 9, 7, null, null, 10 ]
 
 console.log(diameterOfBinaryTree(node));
+console.log(diameterOfBinaryTree(node) === 8);
