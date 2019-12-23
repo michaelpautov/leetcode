@@ -4,23 +4,36 @@
  * @return {string}
  */
 var getHint = function(secret, guess) {
-  let hash = {};
-  let countA = 0;
-  let countB = 0;
-  for(let i = 0; i < 10; i++) hash[i] = 0;
+  const hash = {};
   for(let i = 0; i < secret.length; i++) {
-    const s = secret[i], g = guess[i];
-    if (g === s) {
-      countA++
+    if (hash[secret[i]]) {
+      hash[secret[i]]++;
     } else {
-      if (hash[s] < 0) countB++;
-      if (hash[g] > 0) countB++;
-      hash[s]++;
-      hash[g]--;
+      hash[secret[i]] = 1;
     }
   }
-  return `${countA}A${countB}B`;
+  let a = 0, b = 0;
+  for(let i = 0; i < guess.length;i++) {
+    const n1 = parseInt(secret[i]), n2 = parseInt(guess[i]);
+    if (n1 === n2) {
+      a++;
+      if (hash[n2] > 0) {
+        hash[n2]--;
+      }
+    } else if (hash[n2] > 0) {
+      b++;
+      hash[n2]--;
+    }
+  }
+  return `${a}A${b}B`;
 };
 
-console.log(getHint("1234", "0111") === '0A1B');
+/*
+  if value equal we update A
+  if value not equal add that value to store
+
+*/
+
+// console.log(getHint("1234", "0111") === '0A1B');
 console.log(getHint("1122","1222") === "3A0B");
+// console.log(getHint("1123","0111") === "1A1B");
