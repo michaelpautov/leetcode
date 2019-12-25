@@ -4,28 +4,18 @@
  * @return {boolean}
  */
 var backspaceCompare = function(S, T) {
-  if (S.length < T.length) return backspaceCompare(T, S);
-  let s = [], t = [];
-  for(let i = 0; i < S.length; i++) {
-    const sV = S[i], tV = T[i];
-    add(s, sV);
-    add(t, tV);
-  }
-  if (s.length !== t.length) return false;
-  for(let i = 0; i < s.length;i++) {
-    if (s[i] !== t[i]) {
-      return false;
-    }
-  }
-  return true;
+  return parseString(S) === parseString(T);
 };
 
-function add(stack, el) {
-  if (el !== undefined) {
-    if (el === '#') {
+function parseString(s) {
+  let stack = [];
+  for(let i = 0; i < s.length; i++) {
+    const c = s[i];
+    if (c === '#') {
       stack.pop();
     } else {
-      stack.push(el);
+      stack.push(c);
     }
   }
+  return stack.join('');
 }

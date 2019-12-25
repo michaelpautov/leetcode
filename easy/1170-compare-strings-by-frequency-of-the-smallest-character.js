@@ -4,34 +4,42 @@
  * @return {number[]}
  */
 var numSmallerByFrequency = function(queries, words) {
-  const A2 = [];
-  for(let i = 0; i < words.length; i++) {
-    A2.push(smallestCharacter(words[i]));
+  let wordsFreq = [];
+  for(let i = 0; i < words.length;i++) {
+    wordsFreq.push(smallestCharacterFrequency(words[i]));
   }
-  const answer = [];
-  for(let i = 0; i < queries.length; i++) {
-    const query = smallestCharacter(queries[i]);
-    let count = 0;
-    for(let j = 0; j < A2.length; j++) {
-      const word = A2[j];
-      if (query < word) {
-        count++;
+  let ans = [];
+  for(let i = 0; i < queries.length;i++) {
+    const queryFrequency = smallestCharacterFrequency(queries[i]);
+    let queryCount = 0;
+    for(let j = 0; j < wordsFreq.length;j++) {
+      const wordFreq = wordsFreq[j];
+      if (queryFrequency < wordFreq) {
+        queryCount++;
       }
     }
-    answer.push(count);
+    ans.push(queryCount);
   }
-  return answer;
+  return ans;
 };
 
-function smallestCharacter(word) {
-  let s = word.split('');
-  s.sort();
-  let c = 1;
-  for(let i = 1; i < s.length && s[i - 1] === s[i] ;i++) {
-    c++;
+function smallestCharacterFrequency(word) {
+  let arr = word.split('');
+  arr.sort((a, b) => a.localeCompare(b));
+  let i = 1;
+  while (i < arr.length) {
+    if (arr[i-1] !== arr[i]){
+      return i;
+    }
+    i++;
   }
-  return c;
-}
+  return i;
+}/**
+ * @param {string[]} queries
+ * @param {string[]} words
+ * @return {number[]}
+ */
+
 
 console.log(numSmallerByFrequency(["cbd"], ["zaaaz"]));
 console.log(numSmallerByFrequency(["bbb","cc"], ["a","aa","aaa","aaaa"]));

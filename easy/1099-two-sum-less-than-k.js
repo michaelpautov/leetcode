@@ -4,19 +4,22 @@
  * @return {number}
  */
 var twoSumLessThanK = function(A, K) {
-  A.sort((a ,b) => a - b);
-  const l = A.length;
-  let i = 0, j = l - 1; S = -1;
-  while (i < j) {
-    const sum = A[i] + A[j];
-    if (sum < K) {
-      S = Math.max(sum, S);
-      i++;
-    } else {
+  A.sort((a, b) => a-b);
+  let i = 0, j = A.length - 1;
+  let ans = -1;
+  console.log(A);
+  while(i < j) {
+    let sum = A[i] + A[j];
+    if (sum > K) {
       j--;
+    } else {
+      i++;
+    }
+    if (sum < K) {
+      ans = sum;
     }
   }
-  return S;
+  return ans
 };
 
 console.log(twoSumLessThanK([10, 20, 30], 15));

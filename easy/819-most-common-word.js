@@ -4,28 +4,34 @@
  * @return {string}
  */
 var mostCommonWord = function(paragraph, banned) {
-  let bannedSet = new Set(banned);
+  let maxCount = 0;
+  let commonWord;
   let hash = {};
-  let prev = '';
-  let maxCount = -Infinity;
-  let maxWord;
+  let bannedSet = new Set(banned);
+  let word = '';
   for(let i = 0; i < paragraph.length; i++) {
-    const v = paragraph[i].toLowerCase();
-    if (v.match(/[a-z]/)) {
-      prev += v;
+    const char = paragraph[i].toLowerCase();
+    if (!isLetter(char)) {
+      if (hash[word]) {
+        hash[word]++;
+      } else {
+        hash[word] = 1;
+      }
+      if (word && !bannedSet.has(word) && maxCount < hash[word]) {
+        maxCount = hash[word];
+        commonWord = word;
+      }
+      word = '';
     } else {
-      if (prev && !bannedSet.has(prev)) {
-        hash[prev] = hash[prev] ? hash[prev] + 1 : 1;
-      }
-      if (hash[prev] > maxCount) {
-        maxCount = hash[prev];
-        maxWord = prev;
-      }
-      prev = '';
+      word += char
     }
   }
-  return maxWord || prev;
+  return commonWord || word;
 };
+
+function isLetter(c) {
+  return !!c.match(/[a-z]/);
+}
 
 console.log(mostCommonWord("a, a, a, a, b,b,b,c, c", ['a']) === 'b');
 

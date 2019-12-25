@@ -4,26 +4,27 @@
  * @return {boolean}
  */
 var isAlienSorted = function(words, order) {
-  const hash = {};
-  for(let i = 1; i < order.length; i++) {
+  let hash = {};
+  for(let i = 0; i < order.length;i++) {
     hash[order[i]] = i;
   }
   function isSorted(a, b) {
-    for(let i = 0; i < a.length; i++) {
-      const aV = hash[a[i]], bV = hash[b[i]];
-      if (!aV || !bV) break;
-      if (aV > bV) {
+    let i = 0;
+    for(; i < a.length; i++) {
+      const l1 = hash[a[i]]
+      const l2 = hash[b[i]];
+      if (l1 > l2) {
         return false;
-      } else if (aV < bV) {
+      } else if (l1 < l2) {
         return true;
       }
     }
-    return a.length < b.length;
+    return i+1 < b.length;
   }
   for(let i = 1; i < words.length; i++) {
-    const w1 = words[i-1], w2 = words[i];
-    if (!isSorted(w1, w2)) {
-      return false
+    const word1 = words[i-1], word2 = words[i];
+    if (!isSorted(word1, word2)) {
+      return false;
     }
   }
   return true;
