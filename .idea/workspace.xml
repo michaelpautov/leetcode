@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle/139-word-break.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/199-binary-tree-right-side-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,15 +19,12 @@
     <favorites_list name="test.js" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/middle/139-word-break.js">
+        <entry file="file://$PROJECT_DIR$/middle/199-binary-tree-right-side-view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding>
-                <marker date="1578643300205" expanded="true" signature="574:647" ph="..." />
-              </folding>
+            <state relative-caret-position="224">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -86,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easy/746-min-cost-climbing-stairs.js" />
         <option value="$PROJECT_DIR$/easy/256-paint-house.js" />
         <option value="$PROJECT_DIR$/easy/100-same-tree.js" />
         <option value="$PROJECT_DIR$/easy/110-balanced-binary-tree.js" />
@@ -137,6 +133,7 @@
         <option value="$PROJECT_DIR$/middle/973-k-closest-points-to-origin.js" />
         <option value="$PROJECT_DIR$/middle/31-next-permutation.js" />
         <option value="$PROJECT_DIR$/middle/139-word-break.js" />
+        <option value="$PROJECT_DIR$/middle/199-binary-tree-right-side-view.js" />
       </list>
     </option>
   </component>
@@ -274,14 +271,8 @@
       <workItem from="1578378807468" duration="2000000" />
       <workItem from="1578454175149" duration="793000" />
       <workItem from="1578569747872" duration="42000" />
-      <workItem from="1578641257808" duration="1566000" />
-    </task>
-    <task id="LOCAL-00015" summary="feat(1042): solved">
-      <created>1574052857602</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1574052857602</updated>
+      <workItem from="1578641257808" duration="2219000" />
+      <workItem from="1578889725276" duration="1385000" />
     </task>
     <task id="LOCAL-00016" summary="feat(257): solved">
       <created>1574055472521</created>
@@ -619,23 +610,30 @@
       <option name="project" value="LOCAL" />
       <updated>1578569773894</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="feat(139): solved">
+      <created>1578643317104</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1578643317104</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94647000" />
+    <option name="totallyTimeSpent" value="96685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="853" y="23" width="1707" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.21467228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49823323" visible="true" weight="0.21707757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Storybook" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5017668" side_tool="true" weight="0.31360114" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41865286" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41865286" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46943006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -683,7 +681,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(238): solved" />
     <MESSAGE value="feat(56): solved" />
     <MESSAGE value="feat(560): subarray sum equals k" />
     <MESSAGE value="feat(811): solved" />
@@ -708,7 +705,8 @@
     <MESSAGE value="feat(253): solved" />
     <MESSAGE value="feat(973): solved" />
     <MESSAGE value="feat(31): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(31): solved" />
+    <MESSAGE value="feat(139): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(139): solved" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,23 +861,10 @@
           <line>13</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/middle/139-word-break.js</url>
-          <line>20</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easy/637-average-of-levels-in-binary-tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easy/997-find-the-town-judge.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1219,11 +1204,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/middle/139-word-break.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        <state>
+          <caret selection-end-line="21" selection-end-column="2" />
           <folding>
             <marker date="1578643300205" expanded="true" signature="574:647" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middle/199-binary-tree-right-side-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
