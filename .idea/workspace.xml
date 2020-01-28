@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(5): solved">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middle/3-longest-substring-without-repeating-characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(3): solved">
+      <change afterPath="$PROJECT_DIR$/middle/138-copy-list-with-random-pointer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,9 +80,6 @@
     <configuration name="139-word-break.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="139-word-break.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
-    <configuration name="146-lru-cache.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="146-lru-cache.js" working-dir="$PROJECT_DIR$/middle">
-      <method v="2" />
-    </configuration>
     <configuration name="253-meeting-rooms-2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="253-meeting-rooms-2.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
@@ -93,6 +87,9 @@
       <method v="2" />
     </configuration>
     <configuration name="973-k-closest-points-to-origin.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="973-k-closest-points-to-origin.js" working-dir="$PROJECT_DIR$/middle">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python">
@@ -200,13 +197,9 @@
       <workItem from="1579059131890" duration="1736000" />
       <workItem from="1579088230729" duration="5000" />
       <workItem from="1579145771906" duration="1272000" />
-    </task>
-    <task id="LOCAL-00019" summary="feat(111): solved">
-      <created>1574076408329</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1574076408329</updated>
+      <workItem from="1580092260474" duration="217000" />
+      <workItem from="1580092908451" duration="118000" />
+      <workItem from="1580180143241" duration="43000" />
     </task>
     <task id="LOCAL-00020" summary="feat(5): solved">
       <created>1574147231546</created>
@@ -544,11 +537,18 @@
       <option name="project" value="LOCAL" />
       <updated>1579146512425</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="feat(3): solved">
+      <created>1579234100542</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1579234100542</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100888000" />
+    <option name="totallyTimeSpent" value="101266000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -581,7 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(896): solved" />
     <MESSAGE value="feat(270): solved" />
     <MESSAGE value="feat(680): solved" />
     <MESSAGE value="feat(573): solved" />
@@ -606,57 +605,58 @@
     <MESSAGE value="feat(199): solved" />
     <MESSAGE value="feat(146): solved" />
     <MESSAGE value="feat(5): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(5): solved" />
+    <MESSAGE value="feat(3): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(3): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232007513" />
-    <state x="1352" y="114" key="CommitChangelistDialog2" timestamp="1579234097480">
+    <state x="1352" y="114" key="CommitChangelistDialog2" timestamp="1579234145367">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
-    <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234097480" />
-    <state width="1663" height="341" key="GridCell.Tab.0.bottom" timestamp="1579234016141">
+    <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
+    <state width="1663" height="386" key="GridCell.Tab.0.bottom" timestamp="1579234217079">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="375" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899679" />
-    <state width="1663" height="341" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234016141" />
-    <state width="1663" height="341" key="GridCell.Tab.0.center" timestamp="1579234016140">
+    <state width="1663" height="386" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
+    <state width="1663" height="386" key="GridCell.Tab.0.center" timestamp="1579234217079">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="375" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899678" />
-    <state width="1663" height="341" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234016140" />
-    <state width="1663" height="341" key="GridCell.Tab.0.left" timestamp="1579234016139">
+    <state width="1663" height="386" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
+    <state width="1663" height="386" key="GridCell.Tab.0.left" timestamp="1579234217078">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="375" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899677" />
-    <state width="1663" height="341" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234016139" />
-    <state width="1663" height="341" key="GridCell.Tab.0.right" timestamp="1579234016141">
+    <state width="1663" height="386" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217078" />
+    <state width="1663" height="386" key="GridCell.Tab.0.right" timestamp="1579234217079">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="375" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899678" />
-    <state width="1663" height="341" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234016141" />
-    <state width="1663" height="386" key="GridCell.Tab.1.bottom" timestamp="1579234012554">
+    <state width="1663" height="386" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
+    <state width="1663" height="386" key="GridCell.Tab.1.bottom" timestamp="1579234217080">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="424" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034038" />
-    <state width="1663" height="386" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234012554" />
-    <state width="1663" height="386" key="GridCell.Tab.1.center" timestamp="1579234012553">
+    <state width="1663" height="386" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
+    <state width="1663" height="386" key="GridCell.Tab.1.center" timestamp="1579234217080">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="424" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034038" />
-    <state width="1663" height="386" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234012553" />
-    <state width="1663" height="386" key="GridCell.Tab.1.left" timestamp="1579234012553">
+    <state width="1663" height="386" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
+    <state width="1663" height="386" key="GridCell.Tab.1.left" timestamp="1579234217080">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="424" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034037" />
-    <state width="1663" height="386" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234012553" />
-    <state width="1663" height="386" key="GridCell.Tab.1.right" timestamp="1579234012553">
+    <state width="1663" height="386" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
+    <state width="1663" height="386" key="GridCell.Tab.1.right" timestamp="1579234217080">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
     <state width="1663" height="424" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034038" />
-    <state width="1663" height="386" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234012553" />
+    <state width="1663" height="386" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
     <state x="1479" y="240" key="RollbackChangesDialog" timestamp="1579234090133">
       <screen x="0" y="23" width="2560" height="977" />
     </state>
@@ -665,35 +665,13 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1215" y="190" key="SettingsEditor/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232366360" />
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1579232309512">
+    <state x="1306" y="251" key="Vcs.Push.Dialog.v2" timestamp="1579234147141">
+      <screen x="0" y="23" width="2560" height="977" />
+    </state>
+    <state x="1306" y="251" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234147141" />
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1580180200713">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232309512" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/middle/3-longest-substring-without-repeating-characters.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/middle/3-longest-substring-without-repeating-characters.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/middle/3-longest-substring-without-repeating-characters.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/middle/3-longest-substring-without-repeating-characters.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580180200713" />
   </component>
 </project>
