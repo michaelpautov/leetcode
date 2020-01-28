@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(3): solved">
-      <change afterPath="$PROJECT_DIR$/middle/138-copy-list-with-random-pointer.py" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/easy/9-palindrome-number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,10 +76,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.run">
-    <configuration name="139-word-break.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="139-word-break.js" working-dir="$PROJECT_DIR$/middle">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.9-palindrome-number">
     <configuration name="253-meeting-rooms-2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="253-meeting-rooms-2.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
@@ -90,6 +87,27 @@
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="9-palindrome-number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/9-palindrome-number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python">
@@ -115,7 +133,13 @@
     </configuration>
     <list>
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.9-palindrome-number" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.9-palindrome-number" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -200,13 +224,6 @@
       <workItem from="1580092260474" duration="217000" />
       <workItem from="1580092908451" duration="118000" />
       <workItem from="1580180143241" duration="43000" />
-    </task>
-    <task id="LOCAL-00020" summary="feat(5): solved">
-      <created>1574147231546</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1574147231546</updated>
     </task>
     <task id="LOCAL-00021" summary="feat(107): solved">
       <created>1574177939901</created>
@@ -544,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579234100542</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="feat(138): solved">
+      <created>1580180326089</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1580180326089</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -581,7 +605,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(270): solved" />
     <MESSAGE value="feat(680): solved" />
     <MESSAGE value="feat(573): solved" />
     <MESSAGE value="feat(994): solved" />
@@ -606,56 +629,58 @@
     <MESSAGE value="feat(146): solved" />
     <MESSAGE value="feat(5): solved" />
     <MESSAGE value="feat(3): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(3): solved" />
+    <MESSAGE value="feat(138): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(138): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232007513" />
-    <state x="1352" y="114" key="CommitChangelistDialog2" timestamp="1579234145367">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1580181226143">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
+    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181226143" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
-    <state width="1663" height="386" key="GridCell.Tab.0.bottom" timestamp="1579234217079">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="374" key="GridCell.Tab.0.bottom" timestamp="1580181204685">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="375" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899679" />
+    <state width="1663" height="374" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181204685" />
     <state width="1663" height="386" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="386" key="GridCell.Tab.0.center" timestamp="1579234217079">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="374" key="GridCell.Tab.0.center" timestamp="1580181204685">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="375" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899678" />
+    <state width="1663" height="374" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181204685" />
     <state width="1663" height="386" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="386" key="GridCell.Tab.0.left" timestamp="1579234217078">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="374" key="GridCell.Tab.0.left" timestamp="1580181204684">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="375" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899677" />
+    <state width="1663" height="374" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181204684" />
     <state width="1663" height="386" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217078" />
-    <state width="1663" height="386" key="GridCell.Tab.0.right" timestamp="1579234217079">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="374" key="GridCell.Tab.0.right" timestamp="1580181204685">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="375" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233899678" />
+    <state width="1663" height="374" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181204685" />
     <state width="1663" height="386" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="386" key="GridCell.Tab.1.bottom" timestamp="1579234217080">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1580181194097">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="424" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034038" />
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194097" />
     <state width="1663" height="386" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="386" key="GridCell.Tab.1.center" timestamp="1579234217080">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1580181194096">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="424" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034038" />
+    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194096" />
     <state width="1663" height="386" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="386" key="GridCell.Tab.1.left" timestamp="1579234217080">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1580181194096">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="424" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034037" />
+    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194096" />
     <state width="1663" height="386" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="386" key="GridCell.Tab.1.right" timestamp="1579234217080">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1580181194097">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="424" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579233034038" />
+    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194097" />
     <state width="1663" height="386" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
     <state x="1479" y="240" key="RollbackChangesDialog" timestamp="1579234090133">
       <screen x="0" y="23" width="2560" height="977" />
@@ -665,13 +690,30 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1215" y="190" key="SettingsEditor/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232366360" />
-    <state x="1306" y="251" key="Vcs.Push.Dialog.v2" timestamp="1579234147141">
-      <screen x="0" y="23" width="2560" height="977" />
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2" timestamp="1580180330917">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580180330917" />
     <state x="1306" y="251" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234147141" />
     <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1580180200713">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580180200713" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/easy/9-palindrome-number.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/easy/9-palindrome-number.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
