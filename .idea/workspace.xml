@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/easy/443-string-comperssion.py" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(443): solved">
+      <change afterPath="$PROJECT_DIR$/easy/628-maximum-product-of-three-numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/98-validate-binary-search-tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +64,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="853" />
+    <option name="y" value="23" />
+    <option name="width" value="1707" />
+    <option name="height" value="1057" />
+  </component>
   <component name="ProjectId" id="1WVP63NeIVIuK3vJhpuuySNIKMP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -76,7 +83,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.443-string-comperssion">
+  <component name="RunManager" selected="Python.628-maximum-product-of-three-numbers">
     <configuration name="560-subarray-sum-equals-k.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="560-subarray-sum-equals-k.js" working-dir="$PROJECT_DIR$/middle">
       <method v="2" />
     </configuration>
@@ -86,7 +93,7 @@
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="443-string-comperssion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="628-maximum-product-of-three-numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +105,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/443-string-comperssion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/628-maximum-product-of-three-numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,12 +159,11 @@
     <list>
       <item itemvalue="Python.run" />
       <item itemvalue="Python.9-palindrome-number" />
-      <item itemvalue="Python.443-string-comperssion" />
+      <item itemvalue="Python.628-maximum-product-of-three-numbers" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.443-string-comperssion" />
-        <item itemvalue="Python.9-palindrome-number" />
+        <item itemvalue="Python.628-maximum-product-of-three-numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -244,13 +250,7 @@
       <workItem from="1580092260474" duration="217000" />
       <workItem from="1580092908451" duration="118000" />
       <workItem from="1580180143241" duration="43000" />
-    </task>
-    <task id="LOCAL-00022" summary="feat(559): solved">
-      <created>1574179241023</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1574179241023</updated>
+      <workItem from="1580439024203" duration="12000" />
     </task>
     <task id="LOCAL-00023" summary="feat(993): solved">
       <created>1574213231666</created>
@@ -588,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580181231253</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="feat(443): solved">
+      <created>1580183833257</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1580183833257</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101266000" />
+    <option name="totallyTimeSpent" value="101278000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -625,7 +632,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(573): solved" />
     <MESSAGE value="feat(994): solved" />
     <MESSAGE value="feat(359): solved" />
     <MESSAGE value="feat(1170): solved" />
@@ -650,57 +656,58 @@
     <MESSAGE value="feat(3): solved" />
     <MESSAGE value="feat(138): solved" />
     <MESSAGE value="feat(9): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(9): solved" />
+    <MESSAGE value="feat(443): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(443): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232007513" />
-    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1580181231157">
+    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1580183846681">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181231157" />
+    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580183846681" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
-    <state width="1663" height="374" key="GridCell.Tab.0.bottom" timestamp="1580182689797">
+    <state width="1663" height="423" key="GridCell.Tab.0.bottom" timestamp="1580439682189">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580182689797" />
+    <state width="1663" height="423" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682189" />
     <state width="1663" height="386" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="374" key="GridCell.Tab.0.center" timestamp="1580182689796">
+    <state width="1663" height="423" key="GridCell.Tab.0.center" timestamp="1580439682188">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580182689796" />
+    <state width="1663" height="423" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682188" />
     <state width="1663" height="386" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="374" key="GridCell.Tab.0.left" timestamp="1580182689795">
+    <state width="1663" height="423" key="GridCell.Tab.0.left" timestamp="1580439682188">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580182689795" />
+    <state width="1663" height="423" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682188" />
     <state width="1663" height="386" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217078" />
-    <state width="1663" height="374" key="GridCell.Tab.0.right" timestamp="1580182689796">
+    <state width="1663" height="423" key="GridCell.Tab.0.right" timestamp="1580439682189">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580182689796" />
+    <state width="1663" height="423" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682189" />
     <state width="1663" height="386" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1580181194097">
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1580439682191">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194097" />
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682191" />
     <state width="1663" height="386" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1580181194096">
+    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1580439682190">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194096" />
+    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682190" />
     <state width="1663" height="386" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1580181194096">
+    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1580439682189">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194096" />
+    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682189" />
     <state width="1663" height="386" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1580181194097">
+    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1580439682191">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181194097" />
+    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439682191" />
     <state width="1663" height="386" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
     <state x="1479" y="240" key="RollbackChangesDialog" timestamp="1579234090133">
       <screen x="0" y="23" width="2560" height="977" />
@@ -710,34 +717,18 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1215" y="190" key="SettingsEditor/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232366360" />
-    <state x="1306" y="270" key="Vcs.Push.Dialog.v2" timestamp="1580180330917">
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2" timestamp="1580183837578">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1306" y="270" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580180330917" />
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580183837578" />
     <state x="1306" y="251" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234147141" />
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1580180200713">
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1580439050900">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580180200713" />
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580439050900" />
     <state x="1511" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580181962034">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1511" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1580181962034" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/easy/9-palindrome-number.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/easy/9-palindrome-number.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
