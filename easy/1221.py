@@ -13,11 +13,3 @@ class Solution(object):
 
 t = Solution()
 print(t.balancedStringSplit('RLRRLLRLRL') == 4)
-
-'''
-1. go from start to end
-    1. if length not even continue
-    2. count char if one biggest then half on length also continue
-    3. if it's equal increase count
-return count
-'''
