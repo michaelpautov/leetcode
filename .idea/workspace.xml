@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(1290): solved">
-      <change afterPath="$PROJECT_DIR$/easy/1134.py" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/easy/1213.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -318,13 +318,6 @@
       <workItem from="1580092908451" duration="118000" />
       <workItem from="1580180143241" duration="43000" />
       <workItem from="1580439024203" duration="12000" />
-    </task>
-    <task id="LOCAL-00043" summary="feat(573): solved">
-      <created>1576470326663</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1576470326663</updated>
     </task>
     <task id="LOCAL-00044" summary="feat(994): solved">
       <created>1576485996840</created>
@@ -662,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582095368117</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="feat(1134): solved">
+      <created>1582177916428</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1582177916429</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -699,7 +699,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(139): solved" />
     <MESSAGE value="feat(199): solved" />
     <MESSAGE value="feat(146): solved" />
     <MESSAGE value="feat(5): solved" />
@@ -724,7 +723,8 @@
     <MESSAGE value="feat(1221): solved" />
     <MESSAGE value="feat(760): solved" />
     <MESSAGE value="feat(1290): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(1290): solved" />
+    <MESSAGE value="feat(1134): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(1134): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
@@ -739,10 +739,10 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1394" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1581137848836" />
-    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1582177907009">
+    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1582177916312">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582177907009" />
+    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582177916312" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
     <state width="1663" height="374" key="GridCell.Tab.0.bottom" timestamp="1582177888120">
       <screen x="0" y="23" width="2560" height="1057" />
