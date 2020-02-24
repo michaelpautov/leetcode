@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(1213): solved">
-      <change afterPath="$PROJECT_DIR$/middle/49.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mike.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mike.xml" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/middle/127.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <recent name="$PROJECT_DIR$/middle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.49">
+  <component name="RunManager" selected="Python.127">
     <configuration name="1134" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1351" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="127" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/easy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/middle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/1351.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle/127.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,19 +218,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.run" />
-      <item itemvalue="Python.1351" />
       <item itemvalue="Python.1221" />
       <item itemvalue="Python.760" />
       <item itemvalue="Python.1134" />
       <item itemvalue="Python.49" />
+      <item itemvalue="Python.127" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.127" />
         <item itemvalue="Python.49" />
         <item itemvalue="Python.1134" />
         <item itemvalue="Python.760" />
         <item itemvalue="Python.1221" />
-        <item itemvalue="Python.1351" />
       </list>
     </recent_temporary>
   </component>
@@ -319,13 +318,6 @@
       <workItem from="1580092908451" duration="118000" />
       <workItem from="1580180143241" duration="43000" />
       <workItem from="1580439024203" duration="12000" />
-    </task>
-    <task id="LOCAL-00045" summary="feat(359): solved">
-      <created>1576553714780</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1576553714780</updated>
     </task>
     <task id="LOCAL-00046" summary="feat(299): solved">
       <created>1576557876568</created>
@@ -663,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582179625921</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="feat(49): solved">
+      <created>1582521299498</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1582521299499</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -700,7 +699,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(146): solved" />
     <MESSAGE value="feat(5): solved" />
     <MESSAGE value="feat(3): solved" />
     <MESSAGE value="feat(138): solved" />
@@ -725,7 +723,8 @@
     <MESSAGE value="feat(1290): solved" />
     <MESSAGE value="feat(1134): solved" />
     <MESSAGE value="feat(1213): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(1213): solved" />
+    <MESSAGE value="feat(49): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(49): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
@@ -740,50 +739,50 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1394" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1581137848836" />
-    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1582183132457">
+    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1582521299383">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582183132457" />
+    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521299383" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
-    <state width="1663" height="374" key="GridCell.Tab.0.bottom" timestamp="1582521095677">
+    <state width="1663" height="423" key="GridCell.Tab.0.bottom" timestamp="1582523601080">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521095677" />
+    <state width="1663" height="423" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601080" />
     <state width="1663" height="386" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="374" key="GridCell.Tab.0.center" timestamp="1582521095676">
+    <state width="1663" height="423" key="GridCell.Tab.0.center" timestamp="1582523601079">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521095676" />
+    <state width="1663" height="423" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601079" />
     <state width="1663" height="386" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="374" key="GridCell.Tab.0.left" timestamp="1582521095675">
+    <state width="1663" height="423" key="GridCell.Tab.0.left" timestamp="1582523601078">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521095675" />
+    <state width="1663" height="423" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601078" />
     <state width="1663" height="386" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217078" />
-    <state width="1663" height="374" key="GridCell.Tab.0.right" timestamp="1582521095676">
+    <state width="1663" height="423" key="GridCell.Tab.0.right" timestamp="1582523601079">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="374" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521095676" />
+    <state width="1663" height="423" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601079" />
     <state width="1663" height="386" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1582521089018">
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1582523601573">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521089018" />
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601573" />
     <state width="1663" height="386" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1582521089018">
+    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1582523601572">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521089018" />
+    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601572" />
     <state width="1663" height="386" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1582521089018">
+    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1582523601571">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521089018" />
+    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601571" />
     <state width="1663" height="386" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1582521089018">
+    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1582523601572">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521089018" />
+    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601572" />
     <state width="1663" height="386" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
     <state x="1479" y="240" key="RollbackChangesDialog" timestamp="1579234090133">
       <screen x="0" y="23" width="2560" height="977" />
