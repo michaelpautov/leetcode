@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle/127.py" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(127): solved">
+      <change afterPath="$PROJECT_DIR$/824.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,52 +13,6 @@
   <component name="FavoritesManager">
     <favorites_list name="leetcode" />
     <favorites_list name="test.js" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>a</find>
-      <find>TreeNode</find>
-      <find>b</find>
-      <find>c</find>
-      <find>*</find>
-      <find>rightHeight</find>
-      <find>leftHeight</find>
-      <find>shift</find>
-      <find>v</find>
-      <find>var</find>
-      <find>nestedList</find>
-      <find>node</find>
-      <find>root</find>
-      <find>minDepth</find>
-      <find>left</find>
-      <find>kthLargest</find>
-      <find>pq</find>
-      <find>pq.</find>
-      <find>arr</find>
-      <find>elem</find>
-      <find>parent</find>
-      <find>L</find>
-      <find>arrayEq</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>b</replace>
-      <replace>new TreeNode</replace>
-      <replace>c</replace>
-      <replace>d</replace>
-      <replace>pop</replace>
-      <replace>list[i]</replace>
-      <replace>let</replace>
-      <replace>;ost</replace>
-      <replace>root</replace>
-      <replace>node</replace>
-      <replace>min</replace>
-      <replace>right</replace>
-      <replace>kth</replace>
-      <replace>hash[id]</replace>
-      <replace>score</replace>
-      <replace>this.parent</replace>
-      <replace>R</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,7 +43,7 @@
       <recent name="$PROJECT_DIR$/middle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.127">
+  <component name="RunManager" selected="Python.824">
     <configuration name="1134" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,27 +57,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/1134.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1221" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/easy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/1221.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,6 +128,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="824" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/824.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run" type="PythonConfigurationType" factoryName="Python">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,19 +172,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.run" />
-      <item itemvalue="Python.1221" />
       <item itemvalue="Python.760" />
       <item itemvalue="Python.1134" />
       <item itemvalue="Python.49" />
       <item itemvalue="Python.127" />
+      <item itemvalue="Python.824" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.824" />
         <item itemvalue="Python.127" />
         <item itemvalue="Python.49" />
         <item itemvalue="Python.1134" />
         <item itemvalue="Python.760" />
-        <item itemvalue="Python.1221" />
       </list>
     </recent_temporary>
   </component>
@@ -318,13 +272,6 @@
       <workItem from="1580092908451" duration="118000" />
       <workItem from="1580180143241" duration="43000" />
       <workItem from="1580439024203" duration="12000" />
-    </task>
-    <task id="LOCAL-00046" summary="feat(299): solved">
-      <created>1576557876568</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1576557876568</updated>
     </task>
     <task id="LOCAL-00047" summary="feat(1170): solved">
       <created>1576559429167</created>
@@ -662,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582521299499</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="feat(127): solved">
+      <created>1582523656160</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1582523656160</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -699,7 +653,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(5): solved" />
     <MESSAGE value="feat(3): solved" />
     <MESSAGE value="feat(138): solved" />
     <MESSAGE value="feat(9): solved" />
@@ -724,7 +677,8 @@
     <MESSAGE value="feat(1134): solved" />
     <MESSAGE value="feat(1213): solved" />
     <MESSAGE value="feat(49): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(49): solved" />
+    <MESSAGE value="feat(127): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(127): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
@@ -739,50 +693,50 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1394" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1581137848836" />
-    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1582521299383">
+    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1582523787417">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582521299383" />
+    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523787417" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
-    <state width="1663" height="423" key="GridCell.Tab.0.bottom" timestamp="1582523601080">
+    <state width="1663" height="309" key="GridCell.Tab.0.bottom" timestamp="1584416446674">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601080" />
+    <state width="1663" height="309" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584416446674" />
     <state width="1663" height="386" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.0.center" timestamp="1582523601079">
+    <state width="1663" height="309" key="GridCell.Tab.0.center" timestamp="1584416446673">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601079" />
+    <state width="1663" height="309" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584416446673" />
     <state width="1663" height="386" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.0.left" timestamp="1582523601078">
+    <state width="1663" height="309" key="GridCell.Tab.0.left" timestamp="1584416446673">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601078" />
+    <state width="1663" height="309" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584416446673" />
     <state width="1663" height="386" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217078" />
-    <state width="1663" height="423" key="GridCell.Tab.0.right" timestamp="1582523601079">
+    <state width="1663" height="309" key="GridCell.Tab.0.right" timestamp="1584416446674">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601079" />
+    <state width="1663" height="309" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584416446674" />
     <state width="1663" height="386" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1582523601573">
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1582523797186">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601573" />
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797186" />
     <state width="1663" height="386" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1582523601572">
+    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1582523797186">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601572" />
+    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797186" />
     <state width="1663" height="386" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1582523601571">
+    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1582523797185">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601571" />
+    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797185" />
     <state width="1663" height="386" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1582523601572">
+    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1582523797186">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523601572" />
+    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797186" />
     <state width="1663" height="386" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
     <state x="1479" y="240" key="RollbackChangesDialog" timestamp="1579234090133">
       <screen x="0" y="23" width="2560" height="977" />
@@ -792,15 +746,15 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1215" y="190" key="SettingsEditor/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232366360" />
-    <state x="1306" y="270" key="Vcs.Push.Dialog.v2" timestamp="1582183134307">
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2" timestamp="1582523789545">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1306" y="270" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582183134307" />
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523789545" />
     <state x="1306" y="251" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234147141" />
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1582520605746">
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1584415444795">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582520605746" />
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584415444795" />
     <state x="1511" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580181962034">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
