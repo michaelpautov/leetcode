@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle/22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middle/33.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="$PROJECT_DIR$/middle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.824">
+  <component name="RunManager" selected="Python.33">
     <configuration name="1134" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +86,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/middle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle/33.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="49" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,27 +120,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle/49.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="760" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/easy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy/760.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,16 +175,16 @@
       <item itemvalue="Python.1134" />
       <item itemvalue="Python.127" />
       <item itemvalue="Python.49" />
-      <item itemvalue="Python.760" />
       <item itemvalue="Python.824" />
+      <item itemvalue="Python.33" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.33" />
         <item itemvalue="Python.824" />
         <item itemvalue="Python.127" />
         <item itemvalue="Python.49" />
         <item itemvalue="Python.1134" />
-        <item itemvalue="Python.760" />
       </list>
     </recent_temporary>
   </component>
@@ -698,45 +698,45 @@
     </state>
     <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586752253691" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
-    <state width="1663" height="309" key="GridCell.Tab.0.bottom" timestamp="1584418631293">
+    <state width="1663" height="423" key="GridCell.Tab.0.bottom" timestamp="1586838883134">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="309" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584418631293" />
+    <state width="1663" height="423" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883134" />
     <state width="1663" height="386" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="309" key="GridCell.Tab.0.center" timestamp="1584418631293">
+    <state width="1663" height="423" key="GridCell.Tab.0.center" timestamp="1586838883133">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="309" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584418631293" />
+    <state width="1663" height="423" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883133" />
     <state width="1663" height="386" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="309" key="GridCell.Tab.0.left" timestamp="1584418631290">
+    <state width="1663" height="423" key="GridCell.Tab.0.left" timestamp="1586838883133">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="309" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584418631290" />
+    <state width="1663" height="423" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883133" />
     <state width="1663" height="386" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217078" />
-    <state width="1663" height="309" key="GridCell.Tab.0.right" timestamp="1584418631293">
+    <state width="1663" height="423" key="GridCell.Tab.0.right" timestamp="1586838883133">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="309" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584418631293" />
+    <state width="1663" height="423" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883133" />
     <state width="1663" height="386" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1582523797186">
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1586838883134">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797186" />
+    <state width="1663" height="423" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883134" />
     <state width="1663" height="386" key="GridCell.Tab.1.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1582523797186">
+    <state width="1663" height="423" key="GridCell.Tab.1.center" timestamp="1586838883134">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797186" />
+    <state width="1663" height="423" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883134" />
     <state width="1663" height="386" key="GridCell.Tab.1.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1582523797185">
+    <state width="1663" height="423" key="GridCell.Tab.1.left" timestamp="1586838883134">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797185" />
+    <state width="1663" height="423" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883134" />
     <state width="1663" height="386" key="GridCell.Tab.1.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
-    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1582523797186">
+    <state width="1663" height="423" key="GridCell.Tab.1.right" timestamp="1586838883134">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1582523797186" />
+    <state width="1663" height="423" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838883134" />
     <state width="1663" height="386" key="GridCell.Tab.1.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217080" />
     <state x="1479" y="240" key="RollbackChangesDialog" timestamp="1579234090133">
       <screen x="0" y="23" width="2560" height="977" />
@@ -746,15 +746,15 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1215" y="190" key="SettingsEditor/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232366360" />
-    <state x="1306" y="270" key="Vcs.Push.Dialog.v2" timestamp="1584416529810">
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2" timestamp="1586752937019">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1306" y="270" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1584416529810" />
+    <state x="1306" y="270" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586752937019" />
     <state x="1306" y="251" key="Vcs.Push.Dialog.v2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234147141" />
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1586752219048">
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1586838390515">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586752219048" />
+    <state x="973" y="383" key="com.intellij.ide.util.TipDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586838390515" />
     <state x="1511" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580181962034">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
@@ -763,5 +763,16 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1371" y="258" width="670" height="676" key="search.everywhere.popup/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1581921050058" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
