@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(33): solved">
-      <change afterPath="$PROJECT_DIR$/middle/string-shift.py" afterDir="false" />
+    <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/middle/17.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
       <recent name="$PROJECT_DIR$/middle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.string-shift">
+  <component name="RunManager" selected="Python.17">
     <configuration name="127" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,6 +65,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/middle" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle/17.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="33" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,27 +99,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle/33.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="49" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/middle" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/middle/49.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,18 +173,18 @@
     <list>
       <item itemvalue="Python.run" />
       <item itemvalue="Python.127" />
-      <item itemvalue="Python.49" />
       <item itemvalue="Python.824" />
       <item itemvalue="Python.33" />
       <item itemvalue="Python.string-shift" />
+      <item itemvalue="Python.17" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.17" />
         <item itemvalue="Python.string-shift" />
         <item itemvalue="Python.33" />
         <item itemvalue="Python.824" />
         <item itemvalue="Python.127" />
-        <item itemvalue="Python.49" />
       </list>
     </recent_temporary>
   </component>
@@ -272,20 +272,6 @@
       <workItem from="1580092908451" duration="118000" />
       <workItem from="1580180143241" duration="43000" />
       <workItem from="1580439024203" duration="12000" />
-    </task>
-    <task id="LOCAL-00051" summary="feat(125): solved">
-      <created>1576732147203</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1576732147203</updated>
-    </task>
-    <task id="LOCAL-00052" summary="feat(278): solved">
-      <created>1576733478193</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1576733478193</updated>
     </task>
     <task id="LOCAL-00053" summary="feat(299): solved">
       <created>1577099285864</created>
@@ -616,7 +602,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586838945863</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="feat(string-shift): solved">
+      <created>1586925817259</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1586925817260</updated>
+    </task>
+    <task id="LOCAL-00101" summary="feat(11): solved">
+      <created>1586925834090</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1586925834090</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -653,8 +653,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(628): solved" />
-    <MESSAGE value="feat(443): solved" />
     <MESSAGE value="feat(1119): solved" />
     <MESSAGE value="feat(1108): solved" />
     <MESSAGE value="feat(1281): solved" />
@@ -678,7 +676,9 @@
     <MESSAGE value="feat(824): solved" />
     <MESSAGE value="feat(15): solved" />
     <MESSAGE value="feat(33): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(33): solved" />
+    <MESSAGE value="feat(string-shift): solved" />
+    <MESSAGE value="feat(11): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(11): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
@@ -693,30 +693,30 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1394" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1581137848836" />
-    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1586925817110">
+    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1586925833996">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586925817110" />
+    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586925833996" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
-    <state width="1663" height="423" key="GridCell.Tab.0.bottom" timestamp="1586924380795">
+    <state width="1663" height="309" key="GridCell.Tab.0.bottom" timestamp="1586932513079">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586924380795" />
+    <state width="1663" height="309" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586932513079" />
     <state width="1663" height="386" key="GridCell.Tab.0.bottom/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.0.center" timestamp="1586924380794">
+    <state width="1663" height="309" key="GridCell.Tab.0.center" timestamp="1586932513079">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586924380794" />
+    <state width="1663" height="309" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586932513079" />
     <state width="1663" height="386" key="GridCell.Tab.0.center/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
-    <state width="1663" height="423" key="GridCell.Tab.0.left" timestamp="1586924380793">
+    <state width="1663" height="309" key="GridCell.Tab.0.left" timestamp="1586932513078">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586924380793" />
+    <state width="1663" height="309" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586932513078" />
     <state width="1663" height="386" key="GridCell.Tab.0.left/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217078" />
-    <state width="1663" height="423" key="GridCell.Tab.0.right" timestamp="1586924380795">
+    <state width="1663" height="309" key="GridCell.Tab.0.right" timestamp="1586932513079">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1663" height="423" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586924380795" />
+    <state width="1663" height="309" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1586932513079" />
     <state width="1663" height="386" key="GridCell.Tab.0.right/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234217079" />
     <state width="1663" height="423" key="GridCell.Tab.1.bottom" timestamp="1586924380796">
       <screen x="0" y="23" width="2560" height="1057" />
