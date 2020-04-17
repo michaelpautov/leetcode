@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middle/334.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,13 +265,6 @@
       <workItem from="1580092908451" duration="118000" />
       <workItem from="1580180143241" duration="43000" />
       <workItem from="1580439024203" duration="12000" />
-    </task>
-    <task id="LOCAL-00057" summary="feat(937): solved">
-      <created>1577099326675</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1577099326675</updated>
     </task>
     <task id="LOCAL-00058" summary="feat(1099, 1170, 482, 819, 844, 953): repeat">
       <created>1577245003643</created>
@@ -610,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587038636479</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="feat(334): solved">
+      <created>1587092236713</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1587092236713</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -647,7 +646,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(1265): solved" />
     <MESSAGE value="feat(1315): solved" />
     <MESSAGE value="feat(1302): solved" />
     <MESSAGE value="feat(1282): solved" />
@@ -672,25 +670,26 @@
     <MESSAGE value="feat(240): solved" />
     <MESSAGE value="feat(678): solved" />
     <MESSAGE value="feat(79): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(79): solved" />
+    <MESSAGE value="feat(334): solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(334): solved" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579232007513">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1171" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1579232007513" />
-    <state x="1374" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581137457181">
+    <state x="1374" y="361" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587095602465">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1374" y="361" key="#com.intellij.fileTypes.FileTypeChooser/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1581137457181" />
+    <state x="1374" y="361" key="#com.intellij.fileTypes.FileTypeChooser/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1587095602465" />
     <state x="1394" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581137848836">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="1394" y="294" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1581137848836" />
-    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1587038636397">
+    <state x="1352" y="121" key="CommitChangelistDialog2" timestamp="1587092236612">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1587038636397" />
+    <state x="1352" y="121" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.1057@0.23.2560.1057" timestamp="1587092236612" />
     <state x="1352" y="114" key="CommitChangelistDialog2/2560.1103.1440.877/0.23.2560.977@0.23.2560.977" timestamp="1579234145367" />
     <state width="1663" height="309" key="GridCell.Tab.0.bottom" timestamp="1587092160702">
       <screen x="0" y="23" width="2560" height="1057" />
