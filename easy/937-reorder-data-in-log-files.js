@@ -22,17 +22,17 @@ function isDig(log) {
 }
 
 function getLog(log) {
-  return log.substring(log.indexOf(' ') + 1)
+  return log.slice(log.indexOf(' ') + 1, log.length)
 }
 
 function compare(log1, log2) {
-  const l1 = getLog(log1);
-  const l2 = getLog(log2);
-  let comp = l1.localeCompare(l2);
+  const l1 = getLog(log1)
+  const l2 = getLog(log2)
+  const comp = l1.localeCompare(l2)
   if (comp === 0) {
     return log1.slice(0, log1.indexOf(' ')).localeCompare(log2.slice(0, log2.indexOf(' ')))
   }
-  return comp;
+  return comp
 }
 
 // console.log(isDig('dig1 8 1 5 1') === true);
