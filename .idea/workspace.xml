@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(628): solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy/937-reorder-data-in-log-files.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/937-reorder-data-in-log-files.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/20-valid-parentheses.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/20-valid-parentheses.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +260,10 @@
       <workItem from="1608112862100" duration="280000" />
       <workItem from="1608175590628" duration="9000" />
       <workItem from="1608202372828" duration="385000" />
-      <workItem from="1608539241539" duration="452000" />
-    </task>
-    <task id="LOCAL-00062" summary="feat(973): solved">
-      <created>1578569756211</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1578569756211</updated>
+      <workItem from="1608539241539" duration="545000" />
+      <workItem from="1608541382159" duration="7000" />
+      <workItem from="1608611209674" duration="182000" />
+      <workItem from="1608781983261" duration="885000" />
     </task>
     <task id="LOCAL-00063" summary="feat(31): solved">
       <created>1578569773894</created>
@@ -605,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608113130814</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="repeat(937): repeated">
+      <created>1608539764335</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1608539764335</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +652,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="feat(1342): solved" />
     <MESSAGE value="feat(1313): solved" />
     <MESSAGE value="feat(1323): solved" />
     <MESSAGE value="feat(1165): solved" />
@@ -674,28 +676,29 @@
     <MESSAGE value="feat(200): solved" />
     <MESSAGE value="feat(61): solved" />
     <MESSAGE value="feat(628): solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(628): solved" />
+    <MESSAGE value="repeat(937): repeated" />
+    <option name="LAST_COMMIT_MESSAGE" value="repeat(937): repeated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1524" y="259" key="RollbackChangesDialog" timestamp="1608202970881">
+    <state x="1524" y="259" key="RollbackChangesDialog" timestamp="1608782621380">
       <screen x="0" y="25" width="2560" height="1055" />
     </state>
-    <state x="1524" y="259" key="RollbackChangesDialog/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608202970881" />
+    <state x="1524" y="259" key="RollbackChangesDialog/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608782621380" />
     <state x="1436" y="288" width="552" height="524" key="StructurePopup" timestamp="1608539348043">
       <screen x="0" y="25" width="2560" height="1055" />
     </state>
     <state x="1436" y="288" width="552" height="524" key="StructurePopup/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608539348043" />
-    <state x="1306" y="289" key="Vcs.Push.Dialog.v2" timestamp="1608113133745">
+    <state x="1306" y="289" key="Vcs.Push.Dialog.v2" timestamp="1608539768516">
       <screen x="0" y="25" width="2560" height="1055" />
     </state>
-    <state x="1306" y="289" key="Vcs.Push.Dialog.v2/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608113133745" />
+    <state x="1306" y="289" key="Vcs.Push.Dialog.v2/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608539768516" />
     <state x="1581" y="413" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1608539351284">
       <screen x="0" y="25" width="2560" height="1055" />
     </state>
     <state x="1581" y="413" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608539351284" />
-    <state x="1371" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1608539243997">
+    <state x="1371" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1608781998280">
       <screen x="0" y="25" width="2560" height="1055" />
     </state>
-    <state x="1371" y="259" width="670" height="676" key="search.everywhere.popup/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608539243997" />
+    <state x="1371" y="259" width="670" height="676" key="search.everywhere.popup/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608781998280" />
   </component>
 </project>
