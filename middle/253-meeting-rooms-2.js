@@ -5,18 +5,18 @@
 var minMeetingRooms = function(intervals) {
   if (intervals.length === 0) return 0;
   if (intervals.length === 1) return 1;
-  let starts = intervals.concat([]).sort((a,b) => a[0] - b[0]);
-  let ends = intervals.sort((a,b) => a[1] - b[1]);
-  let rooms = 0;
-  let end = 0;
-  for(let i = 0; i < intervals.length; i++) {
+  const starts = [...intervals].sort((a, b) => a[0] - b[0])
+  const ends = [...intervals].sort((a, b) => a[1] - b[1])
+  let rooms = 0
+  let end = 0
+  for(let i = 0; i < starts.length - 1; i++) {
     if (starts[i][0] < ends[end][1]) {
-      rooms++;
+      rooms++
     } else {
-      end++;
+      end++
     }
   }
-  return rooms;
+  return rooms
 };
 
 console.log(minMeetingRooms([[0, 30], [5, 10], [15, 20]]) === 2);

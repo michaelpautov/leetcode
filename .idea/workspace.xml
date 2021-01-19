@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="86206274-1012-42c4-a40a-1f151e5470c4" name="Default Changelist" comment="feat(628): solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy/20-valid-parentheses.js" beforeDir="false" afterPath="$PROJECT_DIR$/easy/20-valid-parentheses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/238-product-of-array-except-self.js" beforeDir="false" afterPath="$PROJECT_DIR$/middle/238-product-of-array-except-self.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middle/253-meeting-rooms-2.js" beforeDir="false" afterPath="$PROJECT_DIR$/middle/253-meeting-rooms-2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
@@ -48,7 +57,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,6 +195,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -264,6 +276,9 @@
       <workItem from="1608541382159" duration="7000" />
       <workItem from="1608611209674" duration="182000" />
       <workItem from="1608781983261" duration="885000" />
+      <workItem from="1610780389096" duration="833000" />
+      <workItem from="1610814328647" duration="41000" />
+      <workItem from="1611029781433" duration="209000" />
     </task>
     <task id="LOCAL-00063" summary="feat(31): solved">
       <created>1578569773894</created>
@@ -612,7 +627,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -678,27 +693,5 @@
     <MESSAGE value="feat(628): solved" />
     <MESSAGE value="repeat(937): repeated" />
     <option name="LAST_COMMIT_MESSAGE" value="repeat(937): repeated" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1524" y="259" key="RollbackChangesDialog" timestamp="1608782621380">
-      <screen x="0" y="25" width="2560" height="1055" />
-    </state>
-    <state x="1524" y="259" key="RollbackChangesDialog/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608782621380" />
-    <state x="1436" y="288" width="552" height="524" key="StructurePopup" timestamp="1608539348043">
-      <screen x="0" y="25" width="2560" height="1055" />
-    </state>
-    <state x="1436" y="288" width="552" height="524" key="StructurePopup/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608539348043" />
-    <state x="1306" y="289" key="Vcs.Push.Dialog.v2" timestamp="1608539768516">
-      <screen x="0" y="25" width="2560" height="1055" />
-    </state>
-    <state x="1306" y="289" key="Vcs.Push.Dialog.v2/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608539768516" />
-    <state x="1581" y="413" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1608539351284">
-      <screen x="0" y="25" width="2560" height="1055" />
-    </state>
-    <state x="1581" y="413" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608539351284" />
-    <state x="1371" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1608781998280">
-      <screen x="0" y="25" width="2560" height="1055" />
-    </state>
-    <state x="1371" y="259" width="670" height="676" key="search.everywhere.popup/2560.1028.1440.875/0.25.2560.1055@0.25.2560.1055" timestamp="1608781998280" />
   </component>
 </project>
